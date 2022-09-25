@@ -59,18 +59,17 @@
     }
     .text {
         font-family: 'Bebas Neue', cursive;
-        font-size: 158px;
+        font-size: 190px;
         font-weight: 400;
         line-height: 0.77;
         letter-spacing: 5px;
         color: rgb(83, 81, 81);
         position: absolute;
-        top: 31%;
+        top: 250px;
         right: 35.8%;
-        z-index: 200;
     }
     .text span {
-        font-size: 172px;
+        font-size: 207px;
         color: rgb(58, 71, 95);
     }
     .header-2 {
@@ -147,11 +146,11 @@
     }
     .body-2 p {
         font-family: 'Monda', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
-        margin: -50px auto 30px;
+        margin: -45px auto 30px;
         letter-spacing: -0.5px;
-        width: 900px;
+        width: 55%;
         color: rgb(83, 81, 81);
     }
     .carousel {
@@ -397,7 +396,7 @@
     .header-2 {
         background-color: white;
         width: 100%;
-        height: 80px;
+        height: 50px;
         justify-content: space-around;
         margin: auto;
         display: flex;
@@ -405,13 +404,14 @@
     }
     .left-section h1 {
         font-family: 'Bebas Neue', cursive;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 400;
         line-height: 0.83;
+        margin-top: 3px;
         color: rgb(83, 81, 81);
     }
     .left-section h1 span {
-        font-size: 26px;
+        font-size: 24px;
         color: rgb(58, 71, 95);
     }
     .body-2 {
@@ -453,8 +453,8 @@
     }
     .number h1 {
         font-family: 'Bebas Neue', cursive;
-        font-size: 50px;
-        margin-left: 80px;
+        font-size: 70px;
+        margin-left: 100px;
         margin-top: 0;
         margin-right: 0;
         color: rgba(71, 87, 117, 0.514);
@@ -463,18 +463,18 @@
         font-family: 'Bebas Neue', cursive;
         font-size: 20px;
         letter-spacing: 1px;
-        margin-left: -8px;
-        margin-top: 18px;
-        margin-right: 40px;
+        margin-left: -12px;
+        margin-top: 33px;
+        margin-right: 50px;
         color: rgb(71, 87, 117);
     }
     .body-2 p {
         font-family: 'Monda', sans-serif;
         font-size: 12px;
         font-weight: 400;
-        margin: -50px auto 30px;
+        margin: -85px auto 10px;
         letter-spacing: -0.5px;
-        width: 70%;
+        width: 52%;
         color: rgb(83, 81, 81);
     }
     .carousel {
@@ -503,16 +503,16 @@
     }
     .header-3 {
         background-color: white;
-        height: 150px;
+        height: 100px;
         margin: auto;
         display: flex;
         align-items: center;
     }
     .header-3 h1 {
         font-family: 'Bebas Neue', cursive;
-        font-size: 50px;
-        margin-top: 20px;
-        margin-left: 80px;
+        font-size: 70px;
+        margin-top: 5px;
+        margin-left: 100px;
         margin-right: 0;
         color: rgb(151, 156, 168);
     }
@@ -520,17 +520,17 @@
         font-family: 'Bebas Neue', cursive;
         font-size: 20px;
         letter-spacing: 1px;
-        margin-left: -8px;
-        margin-top: -5px;
+        margin-left: -12px;
+        margin-top: 5px;
         margin-right: 40px;
         color: rgb(71, 87, 117);
     }
     .header-3 p {
         font-family: 'Monda', sans-serif;
-        font-size: 20px;
+        font-size: 12px;
         font-weight: 400;
         letter-spacing: -0.5px;
-        width: 70%;
+        width: 60%;
         color: rgb(83, 81, 81);
     }
     .body-3-header {
@@ -585,9 +585,9 @@
     }
     .schedule {
         width: 280px;
-        height: 280px;
-        margin: 30px auto 20px 100px;
-        padding: 5px 10px;
+        height: 250px;
+        margin: 80px auto 20px 140px;
+        padding: 25px 10px;
         background-color: rgba(255, 255, 255, 0.534);
     }
     .schedule h1 {
@@ -596,7 +596,7 @@
         letter-spacing: 2.5px;
         color: rgb(71, 87, 117);
         margin-left: 20px;
-        margin-bottom: -40px;
+        margin-bottom: -10px;
     }
     .schedule ul {
         list-style: none;
@@ -606,11 +606,11 @@
         font-size: 14px;
         font-family: 'Monda', sans-serif;
         letter-spacing: -1px;
-        margin: 20px 25px auto 0px;
+        margin: 20px 25px auto 14px;
         color: rgb(83, 81, 81);
     }
     .footer {
-        height: 80px;
+        height: 60px;
         justify-content: space-around;
         display: flex;
         align-items: center;
@@ -669,7 +669,6 @@
         width: 100%;
         height: 450px;
         position: relative;
-        z-index: 100;
     }
     .header {
         height: 80px;
@@ -681,12 +680,14 @@
     .left-section {
         display: flex;
         align-items: center;
-        margin-right: 20px;
+        margin-right: 0px;
+        gap: 0px
     }
     .left-section img {
         align-items: center;
         margin-bottom: 12px;
-        margin-right: -73px;
+        margin-right: -8px;
+        margin-left: -30px;
     }
     nav ul {
         list-style: none;
@@ -695,6 +696,8 @@
     nav li {
         font-family: 'Monda', sans-serif;
         font-weight: 600;
+        font-size: 10px;
+        margin-top: -5px;
         letter-spacing: 1.5px;
     }
     nav li em a {
@@ -722,7 +725,7 @@
     .header-2 {
         background-color: white;
         width: 100%;
-        height: 80px;
+        height: 50px;
         justify-content: space-around;
         margin: auto;
         display: flex;
@@ -730,13 +733,15 @@
     }
     .left-section h1 {
         font-family: 'Bebas Neue', cursive;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 0.83;
+        margin-left: -60px;
+        margin-right: 40px;
         color: rgb(83, 81, 81);
     }
     .left-section h1 span {
-        font-size: 20px;
+        font-size: 18px;
         color: rgb(58, 71, 95);
     }
     .body-2 {
@@ -752,7 +757,7 @@
         text-align: center;
         font-size: 40px;
         position: absolute;
-        bottom: 10px;
+        bottom: 5px;
         left: 50%;
     }
     .dots span {
@@ -786,7 +791,7 @@
     }
     .number h2 {
         font-family: 'Bebas Neue', cursive;
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: 1px;
         margin-left: -8px;
         margin-top: 18px;
@@ -795,16 +800,16 @@
     }
     .body-2 p {
         font-family: 'Monda', sans-serif;
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 400;
         margin: -10px auto 30px;
         letter-spacing: -0.5px;
-        width: 85%;
+        width: 90%;
         color: rgb(83, 81, 81);
     }
     .carousel {
         width: 100%;
-        height: 120px;
+        height: 80px;
         position: absolute;
         bottom: 0;
         background-color: rgba(71, 87, 117, 0.747);
@@ -812,7 +817,7 @@
     }
     .carousel img {
         width: 80px;
-        margin-top: 20px;
+        margin-top: 5px;
     }
     .carousel img:hover{
         filter: grayscale();
@@ -828,7 +833,7 @@
     }
     .header-3 {
         background-color: white;
-        height: 150px;
+        height: 80px;
         margin: auto;
         display: flex;
         align-items: center;
@@ -836,9 +841,9 @@
     .header-3 h1 {
         font-family: 'Bebas Neue', cursive;
         font-size: 50px;
-        margin-top: 20px;
+        margin-top: 0px;
         margin-left: 50px;
-        margin-right: 0;
+        margin-right: 0px;
         color: rgb(151, 156, 168);
     }
     .header-3 h2 {
@@ -852,7 +857,7 @@
     }
     .header-3 p {
         font-family: 'Monda', sans-serif;
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 400;
         letter-spacing: -0.5px;
         width: 80%;
@@ -935,7 +940,7 @@
         color: rgb(83, 81, 81);
     }
     .footer {
-        height: 75px;
+        height: 60px;
         justify-content: space-around;
         display: flex;
         align-items: center;
@@ -954,18 +959,18 @@
     }
     .footer-left-section h1 {
         font-family: 'Bebas Neue', cursive;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 0.83;
         color: rgb(94, 116, 156);
     }
     .footer-left-section h1 span {
-        font-size: 20px;
+        font-size: 18px;
         color: rgb(94, 116, 156);
     }
     .right-section em {
         font-family: 'Monda', sans-serif;
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 700;
         color: rgb(94, 116, 156);
     }
