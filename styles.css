@@ -59,14 +59,14 @@
     }
     .text {
         font-family: 'Bebas Neue', cursive;
-        font-size: 1200%;
+        font-size: 1000%;
         font-weight: 400;
         line-height: 0.77;
         letter-spacing: 5px;
         color: rgb(83, 81, 81);
         position: absolute;
         top: 240px;
-        right: 700px;
+        right: 50%;
     }
     .text span {
         font-size: 110%;
