@@ -15,12 +15,11 @@
     }
     .body-1 {
         background-image: url("images/first\ layer\ bg.png");
-        background-size: 90% 1000px;
+        background-size: 100% 1000px;
         background-repeat: no-repeat;
-        width: 100%;
+        width: auto;
         height: 950px;
         position: relative;
-        z-index: 100;
     }
     .header {
         height: 80px;
@@ -59,7 +58,7 @@
     }
     .text {
         font-family: 'Bebas Neue', cursive;
-        font-size: 100px;
+        font-size: 180px;
         font-weight: 400;
         line-height: 0.77;
         letter-spacing: 5px;
